@@ -133,7 +133,7 @@ publish/
 
 # Windows Azure Build Output
 csx
-*.build.csdef
+*.`.csdef
 
 # Windows Store app package directory
 AppPackages/
@@ -192,7 +192,6 @@ $RECYCLE.BIN/
 *.egg
 *.egg-info
 dist/
-build/
 eggs/
 parts/
 var/
