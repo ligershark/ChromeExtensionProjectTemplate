@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Id="a03c618e-fb2c-4273-b7f3-182bedb0164d" Version="1.0" Language="en-US" Publisher="LigerShark" />
     <DisplayName>Google Chrome Extension Project Template</DisplayName>
-    <Description>Information about my package</Description>
+    <Description xml:space="preserve">An easy way to create Google Chrome extension in Visual Studio</Description>
     <License>License.txt</License>
     <Icon>logo.png</Icon>
     <PreviewImage>logo.png</PreviewImage>
