@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeExtensionProjectTemplate", "ChromeExtensionProjectTemplate\ChromeExtensionProjectTemplate.csproj", "{9D141603-1A9D-4EEC-82D8-C473EA436839}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeExtensionVsix", "ChromeExtensionVsix\ChromeExtensionVsix.csproj", "{BBBB9629-3C3D-4BE4-8E23-677F9159FF33}"
@@ -22,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BF7AC2C-5C48-4F25-BE24-0AFC57DF0001}
 	EndGlobalSection
 EndGlobal

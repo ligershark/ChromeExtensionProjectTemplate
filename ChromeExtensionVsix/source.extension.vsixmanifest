@@ -13,7 +13,6 @@
         <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
         <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="12.0" />
         <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="14.0" />
-        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="15.3" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
@@ -22,4 +21,7 @@
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
         <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Google Chrome Extension.zip" />
     </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
 </PackageManifest>
